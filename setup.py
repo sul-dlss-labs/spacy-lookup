@@ -7,11 +7,11 @@ from setuptools import setup, find_packages
 
 
 def setup_package():
-    package_name = 'spacy_lookup'
+    package_name = 'spacy_lookup3'
     root = Path(__file__).parent.resolve()
 
     # Read in package meta from about.py
-    about_path = root / package_name / 'about.py'
+    about_path = root / 'spacy_lookup/about.py'
     with about_path.open('r', encoding='utf8') as f:
         about = {}
         exec(f.read(), about)
